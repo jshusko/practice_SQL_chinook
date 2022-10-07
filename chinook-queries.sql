@@ -1,17 +1,25 @@
+.headers on
+.mode csv
 -- 1. Provide a query showing Customers (just their full names, customer ID and country) who are not in the US.
+.output data/query1.csv
 select customerid, firstname, lastname, country
-from customer
+from customers
 where not country = 'USA';
+.output stdout
 
 -- 2. Provide a query only showing the Customers from Brazil.
-select * from customer
+.output data/query2.csv
+select * from customers
 where country = 'Brazil';
+.output stdout
 
 -- 3. Provide a query showing the Invoices of customers who are from Brazil. The resultant table should show the customer's full name, Invoice ID, Date of the invoice and billing country.
+.output data/query3.csv
 select c.firstname, c.lastname, i.invoiceid, i.invoicedate, i.billingcountry
-from customer as c, invoice as i
+from customers as c, invoices as i
 where c.country = 'Brazil' and
 c.customerid = i.customerid;
+.output stdout
 
 -- 4. Provide a query showing only the Employees who are Sales Agents.
 select * from employee
