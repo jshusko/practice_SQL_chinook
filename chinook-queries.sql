@@ -22,39 +22,43 @@ c.customerid = i.customerid;
 .output stdout
 
 -- 4. Provide a query showing only the Employees who are Sales Agents.
-select * from employee
-where employee.title = 'Sales Support Agent';
+.output data/query4.csv
+select * from employees
+where employees.title = 'Sales Support Agent';
+.output stdout
 
 -- 5. Provide a query showing a unique list of billing countries from the Invoice table.
-select distinct billingcountry from invoice;
+.output data/query5.csv
+select distinct billingcountry from invoices;
+.output stdout
 
 -- 6. Provide a query showing the invoices of customers who are from Brazil.
 select *
-from customer as c, invoice as i
+from customers as c, invoices as i
 where c.country = 'Brazil' and
 c.customerid = i.customerid;
 
 -- 7. Provide a query that shows the invoices associated with each sales agent. The resultant table should include the Sales Agent's full name.
 select e.firstname, e.lastname, i.invoiceid, i.customerid, i.invoicedate, i.billingaddress, i.billingcountry, i.billingpostalcode, i.total
-from customer as c, invoice as i
+from customers as c, invoices as i
 on c.customerid = i.customerid
-join employee as e
+join employees as e
 on e.employeeid = c.supportrepid
 order by e.employeeid;
 
 -- 8. Provide a query that shows the Invoice Total, Customer name, Country and Sale Agent name for all invoices and customers.
 select e.firstname as 'employee first', e.lastname as 'employee last', c.firstname as 'customer first', c.lastname as 'customer last', c.country, i.total
-from employee as e
-	join customer as c on e.employeeid = c.supportrepid
-	join invoice as i on c.customerid = i.customerid
+from employees as e
+	join customers as c on e.employeeid = c.supportrepid
+	join invoices as i on c.customerid = i.customerid
 
 -- 9. How many Invoices were there in 2009 and 2011? What are the respective total sales for each of those years?
 select count(i.invoiceid), sum(i.total)
-from invoice as i
+from invoices as i
 where i.invoicedate between datetime('2011-01-01 00:00:00') and datetime('2011-12-31 00:00:00');
 
 select count(i.invoiceid), sum(i.total)
-from invoice as i
+from invoices as i
 where i.invoicedate between datetime('2009-01-01 00:00:00') and datetime('2009-12-31 00:00:00');
 
 -- 10. Looking at the InvoiceLine table, provide a query that COUNTs the number of line items for Invoice ID 37.
@@ -98,24 +102,24 @@ from track as t
 	join mediatype as m on m.mediatypeid = t.mediatypeid
 
 -- 17. Provide a query that shows all Invoices but includes the # of invoice line items.
-select invoice.*, count(invoiceline.invoicelineid) as '# of line items'
-from invoice, invoiceline
+select invoices.*, count(invoiceline.invoicelineid) as '# of line items'
+from invoices, invoiceline
 on invoice.invoiceid = invoiceline.invoiceid
 group by invoice.invoiceid
 
 -- 18. Provide a query that shows total sales made by each sales agent.
 select e.*, count(i.invoiceid) as 'Total Number of Sales'
-from employee as e
-	join customer as c on e.employeeid = c.supportrepid
-	join invoice as i on i.customerid = c.customerid
+from employees as e
+	join customers as c on e.employeeid = c.supportrepid
+	join invoices as i on i.customerid = c.customerid
 group by e.employeeid
 
 -- 19. Which sales agent made the most in sales in 2009?
 select *, max(total) from
 (select e.*, sum(total) as 'Total'
-from employee as e
-	join customer as c on e.employeeid = c.supportrepid
-	join invoice as i on i.customerid = c.customerid
+from employees as e
+	join customers as c on e.employeeid = c.supportrepid
+	join invoices as i on i.customerid = c.customerid
 where i.invoicedate between '2009-01-00' and '2009-12-31'
 group by e.employeeid)
 
@@ -123,24 +127,24 @@ group by e.employeeid)
 -- 20. Which sales agent made the most in sales in 2010?
 select *, max(total) from
 (select e.*, sum(total) as 'Total'
-from employee as e
-	join customer as c on e.employeeid = c.supportrepid
-	join invoice as i on i.customerid = c.customerid
+from employees as e
+	join customers as c on e.employeeid = c.supportrepid
+	join invoices as i on i.customerid = c.customerid
 where i.invoicedate between '2010-01-00' and '2010-12-31'
 group by e.employeeid)
 
 -- 21. Which sales agent made the most in sales over all?
 select *, max(total) from
 (select e.*, sum(total) as 'Total'
-from employee as e
-	join customer as c on e.employeeid = c.supportrepid
-	join invoice as i on i.customerid = c.customerid
+from employees as e
+	join customers as c on e.employeeid = c.supportrepid
+	join invoices as i on i.customerid = c.customerid
 group by e.employeeid)
 
 -- 22. Provide a query that shows the # of customers assigned to each sales agent.
 select e.*, count(c.customerid) as 'TotalCustomers'
-from employee as e
-	join customer as c on e.employeeid = c.supportrepid
+from employees as e
+	join customers as c on e.employeeid = c.supportrepid
 group by e.employeeid
 
 -- 23. Provide a query that shows the total sales per country. Which country's customers spent the most?
@@ -152,7 +156,7 @@ order by totalsales desc
 -- 24. Provide a query that shows the most purchased track of 2013.
 select *, count(t.trackid) as count
 from invoiceline as il
-	join invoice as i on i.invoiceid = il.invoiceid
+	join invoices as i on i.invoiceid = il.invoiceid
 	join track as t on t.trackid = il.trackid
 where i.invoicedate between '2013-01-01' and '2013-12-31'
 group by t.trackid
