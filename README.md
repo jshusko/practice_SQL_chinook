@@ -1,13 +1,12 @@
-### More SQL query fun from the fine folks who brought you the previous SQL exercises.
-Let's cement your SQL query bonafides with a tougher test of your new skills. Keep the Chinook db handy...
+### Chinook SQL Queries
+Practice SQL queries using sqlite3 directly and integrated through Python. Thanks to LucasMcL for query list and .sql solution.
 
-## Requirements
-Use the [Chinook Database](https://chinookdatabase.codeplex.com/) and the [DB Browser for SQLite](http://sqlitebrowser.org/) we downloaded in the ERD exercise.
+ * Use make target 'make setup' to install neccesary requirements.
+ * Use make target 'make run' to run both queries (.sql and .py)
+ * Use make target 'make test' to verify queries from .sql and .py output same results.
 
-For each of the following exercises, provide the appropriate query.
 
-Keep your successful queries in a `chinook-queries.sql` file.
-
+# Query List
 1. Provide a query showing Customers (just their full names, customer ID and country) who are not in the US.
 2. Provide a query only showing the Customers from Brazil.
 3. Provide a query showing the Invoices of customers who are from Brazil. The resultant table should show the customer's full name, Invoice ID, Date of the invoice and billing country.
