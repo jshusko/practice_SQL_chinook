@@ -43,3 +43,4 @@ Implement sqlite3 queries in chinook-queries.py. Compare results (in csv) to chi
 * [SQL Cheatsheet](https://zeroturnaround.com/wp-content/uploads/2016/06/RebelLabs-SQL-cheat-sheet.png)
 * http://www.sqlite.org/lang_select.html
 * https://www.sololearn.com/Course/SQL/
+* https://github.com/m-soro/Business-Analytics/tree/main/SQL-for-Data-Analysis/L4-Project-Query-Music-Store
