@@ -4,4 +4,4 @@ run:
 	python chinook-queries.py; cat chinook-queries.sql | sqlite3 chinook.db
 				
 test:
-	python test_chinook-queries.py
+	python chinook-queries.py; cat chinook-queries.sql | sqlite3 chinook.db; python test_chinook-queries.py

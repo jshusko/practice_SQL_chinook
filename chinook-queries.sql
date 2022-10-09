@@ -1,5 +1,6 @@
 .headers on
 .mode csv
+.echo off
 -- 1. Provide a query showing Customers (just their full names, customer ID and country) who are not in the US.
 .output data/query1.csv
 select customerid, firstname, lastname, country
@@ -33,18 +34,22 @@ select distinct billingcountry from invoices;
 .output stdout
 
 -- 6. Provide a query showing the invoices of customers who are from Brazil.
+.output data/query6.csv
 select *
 from customers as c, invoices as i
 where c.country = 'Brazil' and
 c.customerid = i.customerid;
+.output stdout
 
 -- 7. Provide a query that shows the invoices associated with each sales agent. The resultant table should include the Sales Agent's full name.
+.output data/query7.csv
 select e.firstname, e.lastname, i.invoiceid, i.customerid, i.invoicedate, i.billingaddress, i.billingcountry, i.billingpostalcode, i.total
 from customers as c, invoices as i
 on c.customerid = i.customerid
 join employees as e
 on e.employeeid = c.supportrepid
 order by e.employeeid;
+.output stdout
 
 -- 8. Provide a query that shows the Invoice Total, Customer name, Country and Sale Agent name for all invoices and customers.
 select e.firstname as 'employee first', e.lastname as 'employee last', c.firstname as 'customer first', c.lastname as 'customer last', c.country, i.total

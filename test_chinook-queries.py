@@ -11,17 +11,18 @@ import sqlite3
 import pandas as pd
 
 def test():
+	print('\n\nTesting queries written in chinook-queries.py against chinook-queries.sql:')
 	nsuccess = 0
-	ntest = 3
-	print(f'Success Rate: {nsuccess}/{ntest}')		
+	ntest = 7
+	print(f'- Success Rate: {nsuccess}/{ntest}')		
 	for i in range(1,ntest+1):
 		nsuccess += test_query(f'query{i}')
-		print(f'Success Rate: {nsuccess}/{ntest}')		
+		print(f'- Success Rate: {nsuccess}/{ntest}')		
 	
 	return
 
 def test_query(test):
-	print(f'Testing {test} ...')
+	print(f'- Testing {test} ...')
 	testdf = pd.read_csv(f"./data/{test}.csv")
 	df = pd.read_csv(f"./data/{test}a.csv")
 	try:
