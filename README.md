@@ -1,12 +1,14 @@
-### Chinook SQL Queries
+## Chinook SQL Queries
 Practice SQL queries using sqlite3 directly and integrated through Python. Thanks to LucasMcL for query list and .sql solution.
 
+## How to Use
+Implement sqlite3 queries in chinook-queries.py. Compare results (in csv) to chinook-queries.sql using test_chinook-queries.py. 
  * Use make target 'make setup' to install neccesary requirements.
  * Use make target 'make run' to run both queries (.sql and .py)
  * Use make target 'make test' to verify queries from .sql and .py output same results.
 
 
-# Query List
+### Query List
 1. Provide a query showing Customers (just their full names, customer ID and country) who are not in the US.
 2. Provide a query only showing the Customers from Brazil.
 3. Provide a query showing the Invoices of customers who are from Brazil. The resultant table should show the customer's full name, Invoice ID, Date of the invoice and billing country.
