@@ -1,0 +1,2 @@
+count(i.invoiceid),sum(i.total)
+249,1400.490000000003

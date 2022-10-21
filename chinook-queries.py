@@ -12,7 +12,7 @@ import pandas as pd
 import sys
 
 thismodule = sys.modules[__name__]
-nimplemented = 7
+nimplemented = 10
 
 def query1(cur):
 	"""
@@ -78,7 +78,8 @@ def query6(cur):
 
 def query7(cur):
 	"""
-	7. Provide a query that shows the invoices associated with each sales agent. The resultant table should include the Sales Agent's full name.
+	7. Provide a query that shows the invoices associated with each sales agent. 
+	The resultant table should include the Sales Agent's full name.
 	"""
 	cmd = """
 		select e.firstname, e.lastname, InvoiceId, i.CustomerId, i.InvoiceDate, i.BillingAddress, i.BillingCountry, i.BillingPostalCode, i.Total 
@@ -86,6 +87,43 @@ def query7(cur):
 		left join employees as e
 		where i.customerid = c.customerid and
 		c.supportrepid = e.employeeid;
+		"""
+	res = cur.execute(cmd)
+	return res,cmd
+
+def query8(cur):
+	"""
+	8. Provide a query that shows the Invoice Total, Customer name, Country and Sale Agent name for all invoices and customers.	
+	"""
+	cmd = """
+		select e.firstname as 'employee first', e.lastname as 'employee last', c.firstname as 'customer first', c.lastname as 'customer last', c.country, i.total
+		from employees as e
+			join customers as c on e.employeeid = c.supportrepid
+			join invoices as i on c.customerid = i.customerid
+		"""
+	res = cur.execute(cmd)
+	return res,cmd
+
+def query9(cur):
+	"""
+	9. How many Invoices were there in 2009 and 2011? What are the respective total sales for each of those years?
+	"""
+	cmd = """
+		select count(i.invoiceid), sum(i.total)
+		from invoices as i
+		where i.invoicedate between datetime("2009-01-01 00:00:00") and datetime("2011-12-31 00:00:00");
+		"""
+	res = cur.execute(cmd)
+	return res,cmd
+
+def query10(cur):
+	"""
+	10. Looking at the invoice_items table, provide a query that COUNTs the number of line items for Invoice ID 37.
+	"""
+	cmd = """
+		select count(i.invoicelineid)
+		from invoice_items as i
+		where i.invoiceid = 37;
 		"""
 	res = cur.execute(cmd)
 	return res,cmd

@@ -52,81 +52,101 @@ order by e.employeeid;
 .output stdout
 
 -- 8. Provide a query that shows the Invoice Total, Customer name, Country and Sale Agent name for all invoices and customers.
+.output data/query8.csv
 select e.firstname as 'employee first', e.lastname as 'employee last', c.firstname as 'customer first', c.lastname as 'customer last', c.country, i.total
 from employees as e
 	join customers as c on e.employeeid = c.supportrepid
-	join invoices as i on c.customerid = i.customerid
+	join invoices as i on c.customerid = i.customerid;
+.output stdout
 
 -- 9. How many Invoices were there in 2009 and 2011? What are the respective total sales for each of those years?
+.output data/query9.csv
 select count(i.invoiceid), sum(i.total)
 from invoices as i
 where i.invoicedate between datetime('2011-01-01 00:00:00') and datetime('2011-12-31 00:00:00');
-
-select count(i.invoiceid), sum(i.total)
-from invoices as i
-where i.invoicedate between datetime('2009-01-01 00:00:00') and datetime('2009-12-31 00:00:00');
+.output stdout
 
 -- 10. Looking at the InvoiceLine table, provide a query that COUNTs the number of line items for Invoice ID 37.
+.output data/query10.csv
 select count(i.invoicelineid)
-from invoiceline as i
-where i.invoiceid = 37
+from invoice_items as i
+where i.invoiceid = 37;
+.output stdout
 
 -- 11. Looking at the InvoiceLine table, provide a query that COUNTs the number of line items for each Invoice. HINT: [GROUP BY](http://www.sqlite.org/lang_select.html#resultset)
+.output data/query11.csv
 select invoiceid, count(invoicelineid)
 from invoiceline
-group by invoiceid
+group by invoiceid;
+.output stdout
 
 -- 12. Provide a query that includes the track name with each invoice line item.
+.output data/query12.csv
 select i.*, t.name
 from invoiceline as i, track as t
-on i.trackid = t.trackid
+on i.trackid = t.trackid;
+.output stdout
 
 -- 13. Provide a query that includes the purchased track name AND artist name with each invoice line item.
+.output data/query13.csv
 select i.*, t.name as 'track', ar.name as 'artist'
 from invoiceline as i
 	join track as t on i.trackid = t.trackid
 	join album as al on al.albumid = t.albumid
-	join artist as ar on ar.artistid = al.artistid
+	join artist as ar on ar.artistid = al.artistid;
+.output data/query13.csv
 
 -- 14. Provide a query that shows the # of invoices per country. HINT: [GROUP BY](http://www.sqlite.org/lang_select.html#resultset)
+.output data/query14.csv
 select billingcountry, count(billingcountry) as '# of invoices'
 from invoice
-group by billingcountry
+group by billingcountry;
+.output stdout
 
 -- 15. Provide a query that shows the total number of tracks in each playlist. The Playlist name should be include on the resultant table.
+.output data/query15.csv
 select *, count(trackid) as '# of tracks'
 from playlisttrack, playlist
 on playlisttrack.playlistid = playlist.playlistid
-group by playlist.playlistid
+group by playlist.playlistid;
+.output stdout
 
 -- 16. Provide a query that shows all the Tracks, but displays no IDs. The resultant table should include the Album name, Media type and Genre.
+.output data/query16.csv
 select t.name as 'track', t.composer, t.milliseconds, t.bytes, t.unitprice, a.title as 'album', g.name as 'genre', m.name as 'media type'
 from track as t
 	join album as a on a.albumid = t.albumid
 	join genre as g on g.genreid = t.genreid
-	join mediatype as m on m.mediatypeid = t.mediatypeid
+	join mediatype as m on m.mediatypeid = t.mediatypeid;
+.output stdout
 
 -- 17. Provide a query that shows all Invoices but includes the # of invoice line items.
+.output data/query17.csv
 select invoices.*, count(invoiceline.invoicelineid) as '# of line items'
 from invoices, invoiceline
 on invoice.invoiceid = invoiceline.invoiceid
-group by invoice.invoiceid
+group by invoice.invoiceid;
+.output stdout
 
 -- 18. Provide a query that shows total sales made by each sales agent.
+.output data/query18.csv
 select e.*, count(i.invoiceid) as 'Total Number of Sales'
 from employees as e
 	join customers as c on e.employeeid = c.supportrepid
 	join invoices as i on i.customerid = c.customerid
-group by e.employeeid
+group by e.employeeid;
+.output stdout
 
 -- 19. Which sales agent made the most in sales in 2009?
+.output data/query19.csv
 select *, max(total) from
 (select e.*, sum(total) as 'Total'
 from employees as e
 	join customers as c on e.employeeid = c.supportrepid
 	join invoices as i on i.customerid = c.customerid
 where i.invoicedate between '2009-01-00' and '2009-12-31'
-group by e.employeeid)
+group by e.employeeid);
+.output stdout
 
 
 -- 20. Which sales agent made the most in sales in 2010?

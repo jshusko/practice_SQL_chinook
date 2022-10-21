@@ -1,0 +1,2 @@
+count(i.invoiceid),sum(i.total)
+83,469.58

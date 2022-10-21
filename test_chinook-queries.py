@@ -13,7 +13,7 @@ import pandas as pd
 def test():
 	print('\n\nTesting queries written in chinook-queries.py against chinook-queries.sql:')
 	nsuccess = 0
-	ntest = 7
+	ntest = 10
 	print(f'- Success Rate: {nsuccess}/{ntest}')		
 	for i in range(1,ntest+1):
 		nsuccess += test_query(f'query{i}')

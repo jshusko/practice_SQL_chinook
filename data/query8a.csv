@@ -1,0 +1,413 @@
+employee first,employee last,customer first,customer last,Country,Total
+Jane,Peacock,Luís,Gonçalves,Brazil,3.98
+Jane,Peacock,Luís,Gonçalves,Brazil,3.96
+Jane,Peacock,Luís,Gonçalves,Brazil,5.94
+Jane,Peacock,Luís,Gonçalves,Brazil,0.99
+Jane,Peacock,Luís,Gonçalves,Brazil,1.98
+Jane,Peacock,Luís,Gonçalves,Brazil,13.86
+Jane,Peacock,Luís,Gonçalves,Brazil,8.91
+Steve,Johnson,Leonie,Köhler,Germany,1.98
+Steve,Johnson,Leonie,Köhler,Germany,13.86
+Steve,Johnson,Leonie,Köhler,Germany,8.91
+Steve,Johnson,Leonie,Köhler,Germany,1.98
+Steve,Johnson,Leonie,Köhler,Germany,3.96
+Steve,Johnson,Leonie,Köhler,Germany,5.94
+Steve,Johnson,Leonie,Köhler,Germany,0.99
+Jane,Peacock,François,Tremblay,Canada,3.98
+Jane,Peacock,François,Tremblay,Canada,13.86
+Jane,Peacock,François,Tremblay,Canada,8.91
+Jane,Peacock,François,Tremblay,Canada,1.98
+Jane,Peacock,François,Tremblay,Canada,3.96
+Jane,Peacock,François,Tremblay,Canada,5.94
+Jane,Peacock,François,Tremblay,Canada,0.99
+Margaret,Park,Bjørn,Hansen,Norway,3.96
+Margaret,Park,Bjørn,Hansen,Norway,5.94
+Margaret,Park,Bjørn,Hansen,Norway,0.99
+Margaret,Park,Bjørn,Hansen,Norway,1.98
+Margaret,Park,Bjørn,Hansen,Norway,15.86
+Margaret,Park,Bjørn,Hansen,Norway,8.91
+Margaret,Park,Bjørn,Hansen,Norway,1.98
+Margaret,Park,František,Wichterlová,Czech Republic,1.98
+Margaret,Park,František,Wichterlová,Czech Republic,3.96
+Margaret,Park,František,Wichterlová,Czech Republic,5.94
+Margaret,Park,František,Wichterlová,Czech Republic,0.99
+Margaret,Park,František,Wichterlová,Czech Republic,1.98
+Margaret,Park,František,Wichterlová,Czech Republic,16.86
+Margaret,Park,František,Wichterlová,Czech Republic,8.91
+Steve,Johnson,Helena,Holý,Czech Republic,8.91
+Steve,Johnson,Helena,Holý,Czech Republic,1.98
+Steve,Johnson,Helena,Holý,Czech Republic,3.96
+Steve,Johnson,Helena,Holý,Czech Republic,5.94
+Steve,Johnson,Helena,Holý,Czech Republic,0.99
+Steve,Johnson,Helena,Holý,Czech Republic,1.98
+Steve,Johnson,Helena,Holý,Czech Republic,25.86
+Steve,Johnson,Astrid,Gruber,Austria,1.98
+Steve,Johnson,Astrid,Gruber,Austria,18.86
+Steve,Johnson,Astrid,Gruber,Austria,8.91
+Steve,Johnson,Astrid,Gruber,Austria,1.98
+Steve,Johnson,Astrid,Gruber,Austria,3.96
+Steve,Johnson,Astrid,Gruber,Austria,5.94
+Steve,Johnson,Astrid,Gruber,Austria,0.99
+Margaret,Park,Daan,Peeters,Belgium,5.94
+Margaret,Park,Daan,Peeters,Belgium,0.99
+Margaret,Park,Daan,Peeters,Belgium,1.98
+Margaret,Park,Daan,Peeters,Belgium,13.86
+Margaret,Park,Daan,Peeters,Belgium,8.91
+Margaret,Park,Daan,Peeters,Belgium,1.98
+Margaret,Park,Daan,Peeters,Belgium,3.96
+Margaret,Park,Kara,Nielsen,Denmark,1.98
+Margaret,Park,Kara,Nielsen,Denmark,3.96
+Margaret,Park,Kara,Nielsen,Denmark,5.94
+Margaret,Park,Kara,Nielsen,Denmark,0.99
+Margaret,Park,Kara,Nielsen,Denmark,1.98
+Margaret,Park,Kara,Nielsen,Denmark,13.86
+Margaret,Park,Kara,Nielsen,Denmark,8.91
+Margaret,Park,Eduardo,Martins,Brazil,8.91
+Margaret,Park,Eduardo,Martins,Brazil,1.98
+Margaret,Park,Eduardo,Martins,Brazil,3.96
+Margaret,Park,Eduardo,Martins,Brazil,5.94
+Margaret,Park,Eduardo,Martins,Brazil,0.99
+Margaret,Park,Eduardo,Martins,Brazil,1.98
+Margaret,Park,Eduardo,Martins,Brazil,13.86
+Steve,Johnson,Alexandre,Rocha,Brazil,1.98
+Steve,Johnson,Alexandre,Rocha,Brazil,13.86
+Steve,Johnson,Alexandre,Rocha,Brazil,8.91
+Steve,Johnson,Alexandre,Rocha,Brazil,1.98
+Steve,Johnson,Alexandre,Rocha,Brazil,3.96
+Steve,Johnson,Alexandre,Rocha,Brazil,5.94
+Steve,Johnson,Alexandre,Rocha,Brazil,0.99
+Jane,Peacock,Roberto,Almeida,Brazil,0.99
+Jane,Peacock,Roberto,Almeida,Brazil,1.98
+Jane,Peacock,Roberto,Almeida,Brazil,13.86
+Jane,Peacock,Roberto,Almeida,Brazil,8.91
+Jane,Peacock,Roberto,Almeida,Brazil,1.98
+Jane,Peacock,Roberto,Almeida,Brazil,3.96
+Jane,Peacock,Roberto,Almeida,Brazil,5.94
+Margaret,Park,Fernanda,Ramos,Brazil,1.98
+Margaret,Park,Fernanda,Ramos,Brazil,3.96
+Margaret,Park,Fernanda,Ramos,Brazil,5.94
+Margaret,Park,Fernanda,Ramos,Brazil,0.99
+Margaret,Park,Fernanda,Ramos,Brazil,1.98
+Margaret,Park,Fernanda,Ramos,Brazil,13.86
+Margaret,Park,Fernanda,Ramos,Brazil,8.91
+Steve,Johnson,Mark,Philips,Canada,8.91
+Steve,Johnson,Mark,Philips,Canada,1.98
+Steve,Johnson,Mark,Philips,Canada,3.96
+Steve,Johnson,Mark,Philips,Canada,5.94
+Steve,Johnson,Mark,Philips,Canada,0.99
+Steve,Johnson,Mark,Philips,Canada,1.98
+Steve,Johnson,Mark,Philips,Canada,13.86
+Jane,Peacock,Jennifer,Peterson,Canada,1.98
+Jane,Peacock,Jennifer,Peterson,Canada,13.86
+Jane,Peacock,Jennifer,Peterson,Canada,9.91
+Jane,Peacock,Jennifer,Peterson,Canada,1.98
+Jane,Peacock,Jennifer,Peterson,Canada,3.96
+Jane,Peacock,Jennifer,Peterson,Canada,5.94
+Jane,Peacock,Jennifer,Peterson,Canada,0.99
+Margaret,Park,Frank,Harris,USA,0.99
+Margaret,Park,Frank,Harris,USA,1.98
+Margaret,Park,Frank,Harris,USA,13.86
+Margaret,Park,Frank,Harris,USA,8.91
+Margaret,Park,Frank,Harris,USA,1.98
+Margaret,Park,Frank,Harris,USA,3.96
+Margaret,Park,Frank,Harris,USA,5.94
+Steve,Johnson,Jack,Smith,USA,1.98
+Steve,Johnson,Jack,Smith,USA,3.96
+Steve,Johnson,Jack,Smith,USA,5.94
+Steve,Johnson,Jack,Smith,USA,0.99
+Steve,Johnson,Jack,Smith,USA,1.98
+Steve,Johnson,Jack,Smith,USA,13.86
+Steve,Johnson,Jack,Smith,USA,10.91
+Jane,Peacock,Michelle,Brooks,USA,1.98
+Jane,Peacock,Michelle,Brooks,USA,3.96
+Jane,Peacock,Michelle,Brooks,USA,5.94
+Jane,Peacock,Michelle,Brooks,USA,0.99
+Jane,Peacock,Michelle,Brooks,USA,1.98
+Jane,Peacock,Michelle,Brooks,USA,13.86
+Jane,Peacock,Michelle,Brooks,USA,8.91
+Jane,Peacock,Tim,Goyer,USA,1.98
+Jane,Peacock,Tim,Goyer,USA,13.86
+Jane,Peacock,Tim,Goyer,USA,8.91
+Jane,Peacock,Tim,Goyer,USA,1.98
+Jane,Peacock,Tim,Goyer,USA,3.96
+Jane,Peacock,Tim,Goyer,USA,5.94
+Jane,Peacock,Tim,Goyer,USA,1.99
+Margaret,Park,Dan,Miller,USA,1.98
+Margaret,Park,Dan,Miller,USA,13.86
+Margaret,Park,Dan,Miller,USA,8.91
+Margaret,Park,Dan,Miller,USA,3.98
+Margaret,Park,Dan,Miller,USA,3.96
+Margaret,Park,Dan,Miller,USA,5.94
+Margaret,Park,Dan,Miller,USA,0.99
+Steve,Johnson,Kathy,Chase,USA,3.96
+Steve,Johnson,Kathy,Chase,USA,5.94
+Steve,Johnson,Kathy,Chase,USA,0.99
+Steve,Johnson,Kathy,Chase,USA,1.98
+Steve,Johnson,Kathy,Chase,USA,13.86
+Steve,Johnson,Kathy,Chase,USA,8.91
+Steve,Johnson,Kathy,Chase,USA,1.98
+Margaret,Park,Heather,Leacock,USA,1.98
+Margaret,Park,Heather,Leacock,USA,3.96
+Margaret,Park,Heather,Leacock,USA,5.94
+Margaret,Park,Heather,Leacock,USA,0.99
+Margaret,Park,Heather,Leacock,USA,3.98
+Margaret,Park,Heather,Leacock,USA,13.86
+Margaret,Park,Heather,Leacock,USA,8.91
+Margaret,Park,John,Gordon,USA,13.86
+Margaret,Park,John,Gordon,USA,8.91
+Margaret,Park,John,Gordon,USA,1.98
+Margaret,Park,John,Gordon,USA,3.96
+Margaret,Park,John,Gordon,USA,5.94
+Margaret,Park,John,Gordon,USA,0.99
+Margaret,Park,John,Gordon,USA,1.98
+Jane,Peacock,Frank,Ralston,USA,1.98
+Jane,Peacock,Frank,Ralston,USA,15.86
+Jane,Peacock,Frank,Ralston,USA,8.91
+Jane,Peacock,Frank,Ralston,USA,1.98
+Jane,Peacock,Frank,Ralston,USA,7.96
+Jane,Peacock,Frank,Ralston,USA,5.94
+Jane,Peacock,Frank,Ralston,USA,0.99
+Steve,Johnson,Victor,Stevens,USA,5.94
+Steve,Johnson,Victor,Stevens,USA,0.99
+Steve,Johnson,Victor,Stevens,USA,1.98
+Steve,Johnson,Victor,Stevens,USA,18.86
+Steve,Johnson,Victor,Stevens,USA,8.91
+Steve,Johnson,Victor,Stevens,USA,1.98
+Steve,Johnson,Victor,Stevens,USA,3.96
+Margaret,Park,Richard,Cunningham,USA,1.98
+Margaret,Park,Richard,Cunningham,USA,3.96
+Margaret,Park,Richard,Cunningham,USA,5.94
+Margaret,Park,Richard,Cunningham,USA,0.99
+Margaret,Park,Richard,Cunningham,USA,1.98
+Margaret,Park,Richard,Cunningham,USA,23.86
+Margaret,Park,Richard,Cunningham,USA,8.91
+Margaret,Park,Patrick,Gray,USA,8.91
+Margaret,Park,Patrick,Gray,USA,1.98
+Margaret,Park,Patrick,Gray,USA,3.96
+Margaret,Park,Patrick,Gray,USA,5.94
+Margaret,Park,Patrick,Gray,USA,0.99
+Margaret,Park,Patrick,Gray,USA,1.98
+Margaret,Park,Patrick,Gray,USA,13.86
+Steve,Johnson,Julia,Barnett,USA,1.98
+Steve,Johnson,Julia,Barnett,USA,13.86
+Steve,Johnson,Julia,Barnett,USA,8.91
+Steve,Johnson,Julia,Barnett,USA,1.98
+Steve,Johnson,Julia,Barnett,USA,3.96
+Steve,Johnson,Julia,Barnett,USA,11.94
+Steve,Johnson,Julia,Barnett,USA,0.99
+Jane,Peacock,Robert,Brown,Canada,0.99
+Jane,Peacock,Robert,Brown,Canada,1.98
+Jane,Peacock,Robert,Brown,Canada,13.86
+Jane,Peacock,Robert,Brown,Canada,8.91
+Jane,Peacock,Robert,Brown,Canada,1.98
+Jane,Peacock,Robert,Brown,Canada,3.96
+Jane,Peacock,Robert,Brown,Canada,5.94
+Jane,Peacock,Edward,Francis,Canada,1.98
+Jane,Peacock,Edward,Francis,Canada,3.96
+Jane,Peacock,Edward,Francis,Canada,5.94
+Jane,Peacock,Edward,Francis,Canada,0.99
+Jane,Peacock,Edward,Francis,Canada,1.98
+Jane,Peacock,Edward,Francis,Canada,13.86
+Jane,Peacock,Edward,Francis,Canada,8.91
+Steve,Johnson,Martha,Silk,Canada,8.91
+Steve,Johnson,Martha,Silk,Canada,1.98
+Steve,Johnson,Martha,Silk,Canada,3.96
+Steve,Johnson,Martha,Silk,Canada,5.94
+Steve,Johnson,Martha,Silk,Canada,0.99
+Steve,Johnson,Martha,Silk,Canada,1.98
+Steve,Johnson,Martha,Silk,Canada,13.86
+Margaret,Park,Aaron,Mitchell,Canada,1.98
+Margaret,Park,Aaron,Mitchell,Canada,13.86
+Margaret,Park,Aaron,Mitchell,Canada,8.91
+Margaret,Park,Aaron,Mitchell,Canada,1.98
+Margaret,Park,Aaron,Mitchell,Canada,3.96
+Margaret,Park,Aaron,Mitchell,Canada,5.94
+Margaret,Park,Aaron,Mitchell,Canada,0.99
+Jane,Peacock,Ellie,Sullivan,Canada,0.99
+Jane,Peacock,Ellie,Sullivan,Canada,1.98
+Jane,Peacock,Ellie,Sullivan,Canada,13.86
+Jane,Peacock,Ellie,Sullivan,Canada,8.91
+Jane,Peacock,Ellie,Sullivan,Canada,1.98
+Jane,Peacock,Ellie,Sullivan,Canada,3.96
+Jane,Peacock,Ellie,Sullivan,Canada,5.94
+Margaret,Park,João,Fernandes,Portugal,1.98
+Margaret,Park,João,Fernandes,Portugal,3.96
+Margaret,Park,João,Fernandes,Portugal,5.94
+Margaret,Park,João,Fernandes,Portugal,0.99
+Margaret,Park,João,Fernandes,Portugal,1.98
+Margaret,Park,João,Fernandes,Portugal,13.86
+Margaret,Park,João,Fernandes,Portugal,10.91
+Margaret,Park,Madalena,Sampaio,Portugal,1.98
+Margaret,Park,Madalena,Sampaio,Portugal,3.96
+Margaret,Park,Madalena,Sampaio,Portugal,5.94
+Margaret,Park,Madalena,Sampaio,Portugal,0.99
+Margaret,Park,Madalena,Sampaio,Portugal,1.98
+Margaret,Park,Madalena,Sampaio,Portugal,13.86
+Margaret,Park,Madalena,Sampaio,Portugal,8.91
+Steve,Johnson,Hannah,Schneider,Germany,1.98
+Steve,Johnson,Hannah,Schneider,Germany,13.86
+Steve,Johnson,Hannah,Schneider,Germany,8.91
+Steve,Johnson,Hannah,Schneider,Germany,1.98
+Steve,Johnson,Hannah,Schneider,Germany,3.96
+Steve,Johnson,Hannah,Schneider,Germany,5.94
+Steve,Johnson,Hannah,Schneider,Germany,0.99
+Jane,Peacock,Fynn,Zimmermann,Germany,0.99
+Jane,Peacock,Fynn,Zimmermann,Germany,1.98
+Jane,Peacock,Fynn,Zimmermann,Germany,13.86
+Jane,Peacock,Fynn,Zimmermann,Germany,14.91
+Jane,Peacock,Fynn,Zimmermann,Germany,1.98
+Jane,Peacock,Fynn,Zimmermann,Germany,3.96
+Jane,Peacock,Fynn,Zimmermann,Germany,5.94
+Jane,Peacock,Niklas,Schröder,Germany,1.98
+Jane,Peacock,Niklas,Schröder,Germany,3.96
+Jane,Peacock,Niklas,Schröder,Germany,5.94
+Jane,Peacock,Niklas,Schröder,Germany,0.99
+Jane,Peacock,Niklas,Schröder,Germany,1.98
+Jane,Peacock,Niklas,Schröder,Germany,13.86
+Jane,Peacock,Niklas,Schröder,Germany,8.91
+Margaret,Park,Camille,Bernard,France,1.98
+Margaret,Park,Camille,Bernard,France,3.96
+Margaret,Park,Camille,Bernard,France,5.94
+Margaret,Park,Camille,Bernard,France,1.99
+Margaret,Park,Camille,Bernard,France,1.98
+Margaret,Park,Camille,Bernard,France,13.86
+Margaret,Park,Camille,Bernard,France,8.91
+Margaret,Park,Dominique,Lefebvre,France,1.98
+Margaret,Park,Dominique,Lefebvre,France,13.86
+Margaret,Park,Dominique,Lefebvre,France,8.91
+Margaret,Park,Dominique,Lefebvre,France,2.98
+Margaret,Park,Dominique,Lefebvre,France,3.96
+Margaret,Park,Dominique,Lefebvre,France,5.94
+Margaret,Park,Dominique,Lefebvre,France,0.99
+Steve,Johnson,Marc,Dubois,France,1.98
+Steve,Johnson,Marc,Dubois,France,13.86
+Steve,Johnson,Marc,Dubois,France,8.91
+Steve,Johnson,Marc,Dubois,France,1.98
+Steve,Johnson,Marc,Dubois,France,3.96
+Steve,Johnson,Marc,Dubois,France,5.94
+Steve,Johnson,Marc,Dubois,France,0.99
+Jane,Peacock,Wyatt,Girard,France,3.96
+Jane,Peacock,Wyatt,Girard,France,5.94
+Jane,Peacock,Wyatt,Girard,France,0.99
+Jane,Peacock,Wyatt,Girard,France,3.98
+Jane,Peacock,Wyatt,Girard,France,13.86
+Jane,Peacock,Wyatt,Girard,France,8.91
+Jane,Peacock,Wyatt,Girard,France,1.98
+Jane,Peacock,Isabelle,Mercier,France,1.98
+Jane,Peacock,Isabelle,Mercier,France,3.96
+Jane,Peacock,Isabelle,Mercier,France,5.94
+Jane,Peacock,Isabelle,Mercier,France,0.99
+Jane,Peacock,Isabelle,Mercier,France,1.98
+Jane,Peacock,Isabelle,Mercier,France,16.86
+Jane,Peacock,Isabelle,Mercier,France,8.91
+Jane,Peacock,Terhi,Hämäläinen,Finland,8.91
+Jane,Peacock,Terhi,Hämäläinen,Finland,1.98
+Jane,Peacock,Terhi,Hämäläinen,Finland,7.96
+Jane,Peacock,Terhi,Hämäläinen,Finland,5.94
+Jane,Peacock,Terhi,Hämäläinen,Finland,0.99
+Jane,Peacock,Terhi,Hämäläinen,Finland,1.98
+Jane,Peacock,Terhi,Hämäläinen,Finland,13.86
+Jane,Peacock,Ladislav,Kovács,Hungary,1.98
+Jane,Peacock,Ladislav,Kovács,Hungary,21.86
+Jane,Peacock,Ladislav,Kovács,Hungary,8.91
+Jane,Peacock,Ladislav,Kovács,Hungary,1.98
+Jane,Peacock,Ladislav,Kovács,Hungary,3.96
+Jane,Peacock,Ladislav,Kovács,Hungary,5.94
+Jane,Peacock,Ladislav,Kovács,Hungary,0.99
+Jane,Peacock,Hugh,O'Reilly,Ireland,5.94
+Jane,Peacock,Hugh,O'Reilly,Ireland,0.99
+Jane,Peacock,Hugh,O'Reilly,Ireland,1.98
+Jane,Peacock,Hugh,O'Reilly,Ireland,21.86
+Jane,Peacock,Hugh,O'Reilly,Ireland,8.91
+Jane,Peacock,Hugh,O'Reilly,Ireland,1.98
+Jane,Peacock,Hugh,O'Reilly,Ireland,3.96
+Steve,Johnson,Lucas,Mancini,Italy,1.98
+Steve,Johnson,Lucas,Mancini,Italy,3.96
+Steve,Johnson,Lucas,Mancini,Italy,5.94
+Steve,Johnson,Lucas,Mancini,Italy,0.99
+Steve,Johnson,Lucas,Mancini,Italy,1.98
+Steve,Johnson,Lucas,Mancini,Italy,13.86
+Steve,Johnson,Lucas,Mancini,Italy,8.91
+Steve,Johnson,Johannes,Van der Berg,Netherlands,8.91
+Steve,Johnson,Johannes,Van der Berg,Netherlands,1.98
+Steve,Johnson,Johannes,Van der Berg,Netherlands,3.96
+Steve,Johnson,Johannes,Van der Berg,Netherlands,8.94
+Steve,Johnson,Johannes,Van der Berg,Netherlands,0.99
+Steve,Johnson,Johannes,Van der Berg,Netherlands,1.98
+Steve,Johnson,Johannes,Van der Berg,Netherlands,13.86
+Margaret,Park,Stanisław,Wójcik,Poland,1.98
+Margaret,Park,Stanisław,Wójcik,Poland,13.86
+Margaret,Park,Stanisław,Wójcik,Poland,8.91
+Margaret,Park,Stanisław,Wójcik,Poland,1.98
+Margaret,Park,Stanisław,Wójcik,Poland,3.96
+Margaret,Park,Stanisław,Wójcik,Poland,5.94
+Margaret,Park,Stanisław,Wójcik,Poland,0.99
+Steve,Johnson,Enrique,Muñoz,Spain,0.99
+Steve,Johnson,Enrique,Muñoz,Spain,1.98
+Steve,Johnson,Enrique,Muñoz,Spain,13.86
+Steve,Johnson,Enrique,Muñoz,Spain,8.91
+Steve,Johnson,Enrique,Muñoz,Spain,1.98
+Steve,Johnson,Enrique,Muñoz,Spain,3.96
+Steve,Johnson,Enrique,Muñoz,Spain,5.94
+Steve,Johnson,Joakim,Johansson,Sweden,1.98
+Steve,Johnson,Joakim,Johansson,Sweden,3.96
+Steve,Johnson,Joakim,Johansson,Sweden,6.94
+Steve,Johnson,Joakim,Johansson,Sweden,0.99
+Steve,Johnson,Joakim,Johansson,Sweden,1.98
+Steve,Johnson,Joakim,Johansson,Sweden,13.86
+Steve,Johnson,Joakim,Johansson,Sweden,8.91
+Jane,Peacock,Emma,Jones,United Kingdom,8.91
+Jane,Peacock,Emma,Jones,United Kingdom,1.98
+Jane,Peacock,Emma,Jones,United Kingdom,3.96
+Jane,Peacock,Emma,Jones,United Kingdom,5.94
+Jane,Peacock,Emma,Jones,United Kingdom,0.99
+Jane,Peacock,Emma,Jones,United Kingdom,1.98
+Jane,Peacock,Emma,Jones,United Kingdom,13.86
+Jane,Peacock,Phil,Hughes,United Kingdom,1.98
+Jane,Peacock,Phil,Hughes,United Kingdom,13.86
+Jane,Peacock,Phil,Hughes,United Kingdom,8.91
+Jane,Peacock,Phil,Hughes,United Kingdom,1.98
+Jane,Peacock,Phil,Hughes,United Kingdom,3.96
+Jane,Peacock,Phil,Hughes,United Kingdom,5.94
+Jane,Peacock,Phil,Hughes,United Kingdom,0.99
+Steve,Johnson,Steve,Murray,United Kingdom,0.99
+Steve,Johnson,Steve,Murray,United Kingdom,1.98
+Steve,Johnson,Steve,Murray,United Kingdom,13.86
+Steve,Johnson,Steve,Murray,United Kingdom,8.91
+Steve,Johnson,Steve,Murray,United Kingdom,1.98
+Steve,Johnson,Steve,Murray,United Kingdom,3.96
+Steve,Johnson,Steve,Murray,United Kingdom,5.94
+Margaret,Park,Mark,Taylor,Australia,1.98
+Margaret,Park,Mark,Taylor,Australia,3.96
+Margaret,Park,Mark,Taylor,Australia,5.94
+Margaret,Park,Mark,Taylor,Australia,0.99
+Margaret,Park,Mark,Taylor,Australia,1.98
+Margaret,Park,Mark,Taylor,Australia,13.86
+Margaret,Park,Mark,Taylor,Australia,8.91
+Margaret,Park,Diego,Gutiérrez,Argentina,1.98
+Margaret,Park,Diego,Gutiérrez,Argentina,3.96
+Margaret,Park,Diego,Gutiérrez,Argentina,5.94
+Margaret,Park,Diego,Gutiérrez,Argentina,0.99
+Margaret,Park,Diego,Gutiérrez,Argentina,1.98
+Margaret,Park,Diego,Gutiérrez,Argentina,13.86
+Margaret,Park,Diego,Gutiérrez,Argentina,8.91
+Steve,Johnson,Luis,Rojas,Chile,1.98
+Steve,Johnson,Luis,Rojas,Chile,13.86
+Steve,Johnson,Luis,Rojas,Chile,17.91
+Steve,Johnson,Luis,Rojas,Chile,1.98
+Steve,Johnson,Luis,Rojas,Chile,3.96
+Steve,Johnson,Luis,Rojas,Chile,5.94
+Steve,Johnson,Luis,Rojas,Chile,0.99
+Jane,Peacock,Manoj,Pareek,India,1.98
+Jane,Peacock,Manoj,Pareek,India,13.86
+Jane,Peacock,Manoj,Pareek,India,8.91
+Jane,Peacock,Manoj,Pareek,India,1.98
+Jane,Peacock,Manoj,Pareek,India,3.96
+Jane,Peacock,Manoj,Pareek,India,5.94
+Jane,Peacock,Manoj,Pareek,India,1.99
+Jane,Peacock,Puja,Srivastava,India,3.96
+Jane,Peacock,Puja,Srivastava,India,5.94
+Jane,Peacock,Puja,Srivastava,India,1.99
+Jane,Peacock,Puja,Srivastava,India,1.98
+Jane,Peacock,Puja,Srivastava,India,13.86
+Jane,Peacock,Puja,Srivastava,India,8.91
